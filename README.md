@@ -71,7 +71,7 @@ Listening on 127.0.0.1:8080,8181,8282
 ```
 $ curl -D - localhost:8080
 HTTP/1.0 200 OK
-Server: Tarpit Fun!
+Server: Apache
 Date: Tue, 07 Oct 2014 20:52:33 GMT
 Content-type: text/html
 Last-Modified: Tue, 07 Oct 2014 20:52:33 GMT
