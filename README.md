@@ -7,9 +7,11 @@ you full control over low level details while keeping you from having to disable
 Install
 -------
 
+```
 $ git clone https://github.com/chao-mu/HyperToy.git
 $ cd HyperToy
 $ sudo python3 setup.py install 
+```
 
 Example - Tarpit
 ----------------
