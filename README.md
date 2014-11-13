@@ -123,7 +123,7 @@ class FakeServer(hypertoy.HyperToyHandler):
 
 if __name__ == "__main__":
   main()
-`
+```
 
 ### Usage
 
