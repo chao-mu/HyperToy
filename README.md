@@ -4,6 +4,8 @@ HyperToy
 A framework for rapidly writing toy http servers and proof of concepts. The idea is that it gives
 you full control over low level details while keeping you from having to disable the high level ones. Oh, and it has a built in launcher!
 
+By default, all HTTP request methods (e.g. GET, PUT, PENGUIN) are handled the same and "content" is used to form a response. This last part of the behavior can be overridden by implementing a do_FOO, where FOO is the name of the method. hypertoy.HyperToyHandler is a subclass of http.server.BaseHTTPRequestHandler with some hackery going on to allow for additional flexibility.
+
 Install
 -------
 
