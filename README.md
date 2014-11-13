@@ -4,6 +4,13 @@ HyperToy
 A framework for rapidly writing toy http servers and proof of concepts. The idea is that it gives
 you full control over low level details while keeping you from having to disable the high level ones. Oh, and it has a built in launcher!
 
+Install
+-------
+
+$ git clone https://github.com/chao-mu/HyperToy.git
+$ cd HyperToy
+$ sudo python3 setup.py install 
+
 Example - Tarpit
 ----------------
 
