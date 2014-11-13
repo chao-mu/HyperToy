@@ -19,9 +19,6 @@ class Tarpit(hypertoy.HyperToyHandler):
   Lead scanners on a wild goose chase generating random links and always responding with a 200.
   """
 
-  def server_string(self):
-    return "Tarpit Fun!"
-
   def content(self):
     html_template = \
       "<html><head><title>{}</title></head><body><a href='/{}'>{}</a></body></html>\n"
