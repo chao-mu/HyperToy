@@ -2,7 +2,7 @@ HyperToy
 ========
 
 A framework for rapidly writing toy http servers and proof of concepts. The idea is that it gives
-you full control over low level details and keeps you from having to disable the high level ones.
+you full control over low level details while keeping you from having to disable the high level ones. Oh, and it has a built in launcher!
 
 Example - Tarpit
 ----------------
@@ -18,9 +18,6 @@ class Tarpit(hypertoy.HyperToyHandler):
   """
   Lead scanners on a wild goose chase generating random links and always responding with a 200.
   """
-
-  def server_string(self):
-    return "Tarpit Fun!"
 
   def content(self):
     html_template = \
