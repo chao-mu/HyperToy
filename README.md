@@ -2,7 +2,7 @@ HyperToy
 ========
 
 A framework for rapidly writing toy http servers and proof of concepts. The idea is that it gives
-you full control over low level details and keeps you from having to disable the high level ones.
+you full control over low level details while keeping you from having to disable the high level ones. Oh, and it has a built in launcher!
 
 Example - Tarpit
 ----------------
